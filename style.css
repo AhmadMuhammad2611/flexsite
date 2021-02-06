@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/********* Start Nav ***********/
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 4rem;
+}
+
+.nav ul h2 {
+    color: #121212;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+    color: #001fb7;
+}
+/********* End Nav ***********/
+/************* Start Header ********/
+
+.header {
+    background-image: url(banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    color: #FFF;
+    margin-bottom: 2rem;
+}
+
+.header button {
+    width: 7rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+    background-color: #001fb7;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: .5s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.header button:hover {
+    color: #001fb7;
+    border: 1px solid #001fb7;
+    background-color: transparent;
+}
+/************* End Header ********/
+/************* Start Content ********/
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.content > div {
+    height: 25rem;
+}
+
+.content .img {
+    flex: 1 1 25rem;
+}
+
+.content .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .text {
+    background-color: #121212;
+    color: #ef7600;
+    flex: 1 1 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content .text h2 {
+    font-size: 2rem;
+}
+
+.content .text p {
+    color: #eee;
+    font-size: 1.5rem;
+}
+/************ End Content ********/
+/********* Start Team ***********/
+
+.models {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4rem 0;
+}
+
+.models .model-one {
+    flex: 0 1 25rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #555;
+    padding: .8rem;
+}
+
+.models .model-one img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.models .model-one h2 {
+    margin-bottom: .5rem;
+    color: #300ade;
+    font-size: 1.5rem;
+}
+
+.models .model-one p {
+    color: #366aad;
+    font-size: 1.2rem;
+    text-align: center;
+}
+/********* End Team ***********/
+/********* Start Footer ***********/
+
+.footer {
+    background-color: #121212;
+}
+
+.footer ul {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 4rem;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+/********* End Footer ***********/
